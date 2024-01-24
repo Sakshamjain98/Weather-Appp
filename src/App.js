@@ -196,7 +196,7 @@ const App = () => {
         </button>
       </div>
   {!!temp &&
-     <div className="block w-auto p-6 bg-white border border-gray-200 rounded-lg shadow-md mx-64 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 mt-5 d-flex flex-row justify-center items-center sm:w-6/12 md:w-4/12 lg:w-3/12 mb-5">
+     <div className="block w-auto p-6 bg-white border border-gray-200 rounded-lg shadow-md mx-64 hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 mt-5 d-flex flex-column justify-center items-center sm:w-6/12 md:w-4/12 lg:w-3/12 mb-5">
      <p className="d-flex flex-row mr-3">
        <BsThermometerHalf size={20} className="me-3" /> {temp} °C 
      </p>
